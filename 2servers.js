@@ -10,14 +10,14 @@ function handleRequest(request, response) {
 
   // Send the below string to the client when the user visits the PORT URL
 
-  response.end("It Works!! Path Hit: " + request.url);
+  response.end("You rock!");
 
 }
 
 function handleOtherRequest(request, response) {
 
     // Send the below string to the client when the user visits the PORT URL
-    response.end("It Works!! Path Hit: " + request.url);
+    response.end("You suck!");
   }
 
 // Use the Node HTTP package to create our server.
